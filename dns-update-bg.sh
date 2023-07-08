@@ -1,3 +1,4 @@
+cd "$(dirname "$0")"
 echo "-------" >> dnsupdate.log
 echo $(date) >> dnsupdate.log
-source ./dns-update.sh >> dnsupdate.log
+. ./dns-update.sh >> dnsupdate.log
