@@ -1,5 +1,5 @@
 # secrets key file
-secret.txt
+*secret*
 
 # logs
 dnsupdate.log
