@@ -4,7 +4,7 @@ Script I stole from the internet to update cloudflare DNS records, with minor mo
 Requires the jq package
 
 ## usage
-Create a secrets.txt file with your Cloudflare email and API key separated by a comma. This script expects an zone-specific API key; you should not use your global Cloudflare API key.
+Create a secrets.txt file with your DNS zone, DNS record name, Cloudflare email, and API key separated by commas. This script expects an zone-specific API key; you should not use your global Cloudflare API key.
 
 Example: email@cloudflare.com,1234567890ABCDEFG
 
