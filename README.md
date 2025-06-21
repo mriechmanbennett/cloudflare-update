@@ -12,7 +12,7 @@ Example: google.com,www.google.com,email@cloudflare.com,1234567890ABCDEFG
 
 Add the following to your crontab for the script to run every 10 minutes:
 ```
-*/10 * * * * /path/to/script/dns-update.sh
+*/10 * * * * /usr/bin/bash /path/to/script/dns-update.sh
 ```
 
 
